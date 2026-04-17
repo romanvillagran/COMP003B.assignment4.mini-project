@@ -32,7 +32,7 @@ namespace COMP003B.Assignment4
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Orders}/{action=Create}/{id?}");
 
             app.Run();
         }

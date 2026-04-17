@@ -13,11 +13,8 @@ namespace COMP003B.Assignment4.Controllers
         [HttpPost]
         public IActionResult Create(Order order)
         {
-            if (ModelState.IsValid)
-            {
-                return RedirectToAction("Success");
-            }
-            return View(order);
+            return RedirectToAction("Success");
+
         }
 
         [HttpGet]

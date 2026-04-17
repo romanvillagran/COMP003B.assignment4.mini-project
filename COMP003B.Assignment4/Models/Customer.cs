@@ -13,7 +13,7 @@ namespace COMP003B.Assignment4.Models
         [EmailAddress]
         public string Email {  get; set; }
 
-        [Required]
+        
         [StringLength(10)]
         public string Phone {  get; set; }
     }
